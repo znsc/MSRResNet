@@ -13,7 +13,7 @@ Jointly with AIM workshop we have an AIM challenge on Constrained Super-Resoluti
 
 * Number of parameters: 1,517,571 (1.5M)
 
-    ```
+    ```python
     number_parameters = sum(map(lambda x: x.numel(), model.parameters()))
     ```
 
