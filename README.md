@@ -13,9 +13,14 @@ Jointly with AIM workshop we have an AIM challenge on Constrained Super-Resoluti
 
 * Number of parameters: 1,517,571 (1.5M)
 
+    ```
+    number_parameters = sum(map(lambda x: x.numel(), model.parameters()))
+    ```
+
 * Average PSNR on validation data: 29.00 dB
 
-* Average inference time (Titan Xp) on validation data: 0.170 second
+* Average inference time (Titan Xp) on validation data: 0.170 second 
 
+    Note: I selected the best average inference time among three trials
 
 Run [test_demo.py](test_demo.py) to test the model
