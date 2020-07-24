@@ -1,3 +1,10 @@
+## [AIM Workshop and Challenge](https://data.vision.ee.ethz.ch/cvl/aim20/) @ ECCV 2020
+## Efficient Super-Resolution Challenge
+
+Please visit [main_challenge_sr.py](https://github.com/cszn/KAIR/blob/master/main_challenge_sr.py) to evaluate your model.
+
+-----------------------------
+
 ## [AIM Workshop and Challenge](http://www.vision.ee.ethz.ch/aim19/) @ ICCV 2019
 ## Constrained Super-Resolution Challenge
 
